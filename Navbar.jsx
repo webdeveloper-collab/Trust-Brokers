@@ -231,7 +231,7 @@ const Navbar = () => {
                     <div className="space-y-1 text-center sm:text-left">
                       <div>
                         <a 
-                          href="https://www.instagram.com/trustbroker_official/" 
+                          href="https://www.instagram.com/trustbroker.in/" 
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-xs sm:text-base font-medium text-white hover:text-[#AD8B3A] transition-colors font-['Bricolage_Grotesque'] flex items-center gap-2 justify-center sm:justify-start"
@@ -244,7 +244,7 @@ const Navbar = () => {
                       </div>
                       <div>
                         <a 
-                          href="https://www.facebook.com/people/Trust-Broker/61571117243870/" 
+                          href="https://www.facebook.com/trustbrokerfb/" 
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-xs sm:text-base font-medium text-white hover:text-[#AD8B3A] transition-colors font-['Bricolage_Grotesque'] flex items-center gap-2 justify-center sm:justify-start"
@@ -255,9 +255,41 @@ const Navbar = () => {
                           Facebook
                         </a>
                       </div>
+
                       <div>
                         <a 
-                          href="https://www.youtube.com/@TrustBroker_Official" 
+                          href="https://x.com/Trust__broker" 
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xs sm:text-base font-medium text-white hover:text-[#AD8B3A] transition-colors font-['Bricolage_Grotesque'] flex items-center gap-2 justify-center sm:justify-start"
+                        >
+                          <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                          </svg>
+                          X
+                        </a>
+                      </div>
+
+                      <div>
+                        <a 
+                          href="https://www.threads.com/@trustbroker.in" 
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xs sm:text-base font-medium text-white hover:text-[#AD8B3A] transition-colors font-['Bricolage_Grotesque'] flex items-center gap-2 justify-center sm:justify-start"
+                        >
+                          <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                          </svg>
+                          Threads
+                        </a>
+                      </div>
+
+
+
+                      
+                      <div>
+                        <a 
+                          href="https://www.youtube.com/@TrustBroker-youtube" 
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-xs sm:text-base font-medium text-white hover:text-[#AD8B3A] transition-colors font-['Bricolage_Grotesque'] flex items-center gap-2 justify-center sm:justify-start"
@@ -289,5 +321,6 @@ const Navbar = () => {
     </>
   )
 }
+
 
 export default Navbar
